@@ -889,7 +889,7 @@ function App() {
             <div>
               <h4 className="text-2xl font-semibold tracking-tight mb-4">Contacto</h4>
               <div className="space-y-2 text-[17px] leading-7 text-white/70">
-                <p>+52 618 158 1302</p>
+                <p>618 158 1302</p>
                 <p className="break-all">pilateselorreaga248@gmail.com</p>
                 <p>Elorreaga 248 Pte., Centro</p>
                 <p>Durango, Dgo., México</p>
