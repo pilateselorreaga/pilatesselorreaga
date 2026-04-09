@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Phone, Mail, MapPin, Instagram, Facebook, Clock, CheckCircle2, User, Heart, Zap, Wind, ExternalLink, ChevronDown } from 'lucide-react';
+import { Menu, X, Phone, Mail, MapPin, Instagram, Facebook, Clock, CheckCircle2, User, Heart, Zap, Wind, ExternalLink, ChevronDown, Calendar } from 'lucide-react';
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle } from './components/ui/dialog';
 
 /*
@@ -263,7 +263,7 @@ function App() {
                 </button>
               ))}
               <a
-                href="https://wa.me/526181581302"
+                href="https://cal.com/javier-marper-qdwxai/clase-de-pilates"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2.5 bg-gradient-to-r from-[var(--lavender)] to-[var(--mint)] text-white rounded-full font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
@@ -298,7 +298,7 @@ function App() {
                 </button>
               ))}
               <a
-                href="https://wa.me/526181581302"
+                href="https://cal.com/javier-marper-qdwxai/clase-de-pilates"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full px-6 py-3 bg-gradient-to-r from-[var(--lavender)] to-[var(--mint)] text-white text-center rounded-full font-medium shadow-lg"
@@ -321,30 +321,29 @@ function App() {
                 Centro, Durango
               </div>
               <div className="w-full max-w-2xl">
-                <img
-                  src="/Pilates Elorreaga.svg"
-                  alt="Pilates Elorreaga"
-                  className="w-full h-auto"
-                />
+                <h1 className="text-[clamp(40px,8vw,76px)] font-semibold leading-[1.15] tracking-[-0.02em] text-[var(--charcoal)] mb-6">
+                  Clases de <span className="bg-gradient-to-r from-[var(--lavender)] to-[var(--mint)] bg-clip-text text-transparent">pilates en Durango</span>
+                </h1>
+                <h2 className="text-[17px] md:text-xl leading-relaxed text-[var(--charcoal)]/80 mb-2">
+                  Clases de pilates: reformer, mat y privadas - Pilates clínico y rehabilitación física - Embarazadas, postparto y adultos mayores - Movilidad, core y entrenamiento funcional - Clases de yoga y entrenador personal
+                </h2>
               </div>
-              <p className="text-[17px] leading-7 text-[var(--charcoal)]/80">
-                Clases de Pilates para postura, fuerza profunda y movilidad sin dolor.
-              </p>
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-4 pt-2">
                 <a
-                  href="https://wa.me/526181581302"
+                  href="https://cal.com/javier-marper-qdwxai/clase-de-pilates"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-8 py-4 bg-gradient-to-r from-[var(--lavender)] to-[var(--mint)] text-white rounded-full font-medium shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2"
+                  className="px-8 py-4 bg-gradient-to-r from-[var(--lavender)] to-[var(--mint)] text-white rounded-full font-medium shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
                   style={{ boxShadow: '0 10px 40px rgba(169, 124, 243, 0.3)' }}
                 >
-                  <Phone size={20} />
+                  <Calendar size={20} />
                   Reservar clase
                 </a>
                 <a
                   href="tel:+526181581302"
-                  className="px-8 py-4 bg-white/80 backdrop-blur-sm border-2 border-[var(--lavender)] text-[var(--lavender)] rounded-full font-medium hover:bg-[var(--lavender)] hover:text-white transition-all duration-300"
+                  className="px-8 py-4 bg-white/80 backdrop-blur-sm border-2 border-[var(--lavender)] text-[var(--lavender)] rounded-full font-medium hover:bg-[var(--lavender)] hover:text-white transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
                 >
+                  <Phone size={20} />
                   Llamar
                 </a>
               </div>
